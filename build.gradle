@@ -14,7 +14,7 @@ task libs(type: Sync) {
 }
 
 compileJava.dependsOn libs
-
+    
 repositories {
   mavenCentral()
 }
